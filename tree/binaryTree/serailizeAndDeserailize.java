@@ -28,7 +28,9 @@ public class Codec {
             serialize(root.left,sb);
             serialize(root.right,sb);
         }
+
         // Encodes a tree to a single string.
+
         public String serialize(TreeNode root) {
         StringBuilder sb = new StringBuilder();
         serialize(root,sb);
@@ -49,7 +51,9 @@ public class Codec {
             return node;
             
         }
+        
         // Decodes your encoded data to tree.
+        
         public TreeNode deserialize(String data) {
         String[] arr = data.split(",");
         return deserialize(arr);
