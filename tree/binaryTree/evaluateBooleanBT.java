@@ -6,6 +6,7 @@ public class evaluateBooleanBT {
     public boolean evaluateTree(TreeNode root) {
         
         // DFS -> PostOrder
+
         if(root.left == null && root.right == null){
             return (root.val == 1) ? true : false;
         }
@@ -13,6 +14,7 @@ public class evaluateBooleanBT {
         boolean right = false;
         
         // calculate left and right boolean value 
+
         if(root.left != null){
             left = evaluateTree(root.left);
         }
@@ -22,6 +24,7 @@ public class evaluateBooleanBT {
         
         boolean result = false;
         //evaluate the root using left and right child value
+        
         if(root.val == 2){
             result = (left || right) ? true : false;
         }
