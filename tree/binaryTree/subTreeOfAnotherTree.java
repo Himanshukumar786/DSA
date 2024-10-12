@@ -11,7 +11,6 @@ public class subTreeOfAnotherTree {
             
             if(r.val != s.val) return false;
             
-            
             return subTree(r.left, s.left) && subTree(r.right, s.right);
 
             

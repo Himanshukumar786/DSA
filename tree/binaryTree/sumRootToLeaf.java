@@ -7,10 +7,13 @@ public class sumRootToLeaf {
         int ans=0;
         
         public int sum(TreeNode root, int num){
+
             if(root.left == null && root.right == null){
                 ans += 10 * num + root.val;
             }
+            
             int n = 10 * num + root.val;
+
             if(root.left != null){
                 sum(root.left, n);
             }

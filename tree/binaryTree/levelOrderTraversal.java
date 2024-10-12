@@ -21,10 +21,13 @@ public class levelOrderTraversal {
             q.add(root);
 
             while(q.size() > 0){
+
                 int size = q.size();
                 List<Integer> ans = new ArrayList<>();
+                
                 while(size-- > 0){
                     TreeNode temp = q.remove(); //got poped
+
                     if(temp.left != null){
                         q.add(temp.left);
                     }
