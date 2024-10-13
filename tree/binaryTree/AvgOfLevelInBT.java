@@ -9,6 +9,7 @@ import javax.swing.tree.TreeNode;
 
 public class AvgOfLevelInBT {
     public List<Double> averageOfLevels(TreeNode root) {
+        
         // simple levelorder
         // make a list of double type nd add each level values nd get the avg nd add in list
         
@@ -25,6 +26,7 @@ public class AvgOfLevelInBT {
             
             for(int i=0; i<n; i++){
                 TreeNode temp = q.remove();
+
                 if(temp.left != null){
                     q.add(temp.left);
                 }
