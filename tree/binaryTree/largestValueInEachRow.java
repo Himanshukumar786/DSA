@@ -19,6 +19,7 @@ public class largestValueInEachRow {
         while(q.size() > 0){
             int size = q.size();
             int ans = Integer.MIN_VALUE;
+            
             // List<Integer> ans = new ArrayList<>();
             while(size-- > 0){
                 TreeNode temp = q.remove(); //got poped

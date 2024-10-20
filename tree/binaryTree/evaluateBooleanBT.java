@@ -14,7 +14,6 @@ public class evaluateBooleanBT {
         boolean right = false;
         
         // calculate left and right boolean value 
-
         if(root.left != null){
             left = evaluateTree(root.left);
         }

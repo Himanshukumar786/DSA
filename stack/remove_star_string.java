@@ -19,6 +19,7 @@ public class remove_star_string {
         }
         
         StringBuilder result = new StringBuilder("");
+        
         while(!st.isEmpty()) {
             result.append(st.peek());
             st.pop();
