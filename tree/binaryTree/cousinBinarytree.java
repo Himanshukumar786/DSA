@@ -7,17 +7,22 @@ import javax.swing.tree.TreeNode;
 
 public class cousinBinarytree {
     public boolean isCousins(TreeNode root, int x, int y) {
+        
         if(root == null) return false;
+
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
+        
         int childcount = 0;
         
         while(!q.isEmpty()){
             int size = q.size();
+
             // check at same level
             for(int i=0; i<size; i++){
                 TreeNode temp = q.remove();
                 int sameparentcount = 0;
+                
                 if(temp.left != null){
                     if(temp.left.val == x || temp.left.val == y){                    
                         sameparentcount++;

@@ -21,10 +21,9 @@ public class evaluateBooleanBT {
         if(root.right != null){
             right = evaluateTree(root.right);
         }
-        
         boolean result = false;
+
         //evaluate the root using left and right child value
-        
         if(root.val == 2){
             result = (left || right) ? true : false;
         }
