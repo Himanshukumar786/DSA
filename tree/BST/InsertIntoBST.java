@@ -4,6 +4,7 @@ import javax.swing.tree.TreeNode;
 
 public class InsertIntoBST {
     class Solution {
+        
     // a simple BST insert based upon the set of copmared value where is left and right
     
         public TreeNode nBst(TreeNode root, int val){
