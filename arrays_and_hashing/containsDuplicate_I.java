@@ -5,6 +5,7 @@ import java.util.Arrays;
     public class containsDuplicate_I {
         class Solution {
         public boolean containsDuplicate(int[] nums) {
+            
             // sort array will take o(n) compleity
             // better approch is using hashmap
             Arrays.sort(nums);
