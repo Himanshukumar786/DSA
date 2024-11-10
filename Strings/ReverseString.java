@@ -2,6 +2,7 @@ package Strings;
 
 public class ReverseString {
     public void reverseString(char[] s) {
+        
         // we can use stringbuilder but the
         // given is already a char[] aaray not a string so use simple pointer approach
         
