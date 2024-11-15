@@ -44,6 +44,7 @@ public class Maximum_twin_sum_of_LL {
             curr2 = curr2.next;
             
         }
+        
         // slow.next = reverse(secondhalf);
         return max;
         
