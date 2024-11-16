@@ -32,7 +32,9 @@ public class Maximum_twin_sum_of_LL {
         }
         
         ListNode secondhalf = slow;
+
         // slow.next = null;
+        
         ListNode rev = reverse(secondhalf);
         ListNode curr = head;
         ListNode curr2 = rev;
