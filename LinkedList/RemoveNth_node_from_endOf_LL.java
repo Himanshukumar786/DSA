@@ -18,6 +18,7 @@ public class RemoveNth_node_from_endOf_LL {
         }
         
         ListNode slow = head;
+        
         while(fast.next != null){
             slow = slow.next;
             fast = fast.next;
