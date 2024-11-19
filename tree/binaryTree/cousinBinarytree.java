@@ -19,6 +19,7 @@ public class cousinBinarytree {
             int size = q.size();
 
             // check at same level
+            
             for(int i=0; i<size; i++){
                 TreeNode temp = q.remove();
                 int sameparentcount = 0;
