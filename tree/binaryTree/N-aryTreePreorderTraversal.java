@@ -5,6 +5,7 @@ public class N-aryTreePreorderTraversal {
         // simple dfs -> having children property , added into the list and return list
         // using for each loop bcs question having only children and val property 
         // same as N-ary Tree Postorder Traversal
+        
         public void dfsfn(Node root, List<Integer> list){
             
             if(root == null) return ;
