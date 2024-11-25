@@ -77,7 +77,9 @@ class Solution {
             if (digits[i] != -1) ans.append(digits[i]);
         }
         if (ans.length() == 0) return "";
+
         if (ans.charAt(0) == '0') return "0";
+        
         return ans.toString();
     }
 }
