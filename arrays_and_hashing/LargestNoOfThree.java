@@ -72,6 +72,7 @@ class Solution {
                 } else return "";
             }
         }
+        
         StringBuilder ans = new StringBuilder();
         for (int i = n - 1; i >= 0; i--) {
             if (digits[i] != -1) ans.append(digits[i]);
