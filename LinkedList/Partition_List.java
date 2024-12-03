@@ -10,6 +10,7 @@ public class Partition_List {
         
         ListNode curr = head;
         while(curr !=null){
+            
             ListNode temp = curr;
             curr = curr.next;
             temp.next = null;
