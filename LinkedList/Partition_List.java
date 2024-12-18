@@ -26,6 +26,7 @@ public class Partition_List {
                         
             }
         }
+        
         t1.next=d2.next;
         d2.next=null;
 
