@@ -22,9 +22,11 @@ public class rotate_list {
             int skip = length - rotations;
             
             ListNode newlast = head;
+            
             for(int i = 1; i < skip; i++){
                 newlast = newlast.next;
             }
+
             head = newlast.next;
             newlast.next = null;
             
