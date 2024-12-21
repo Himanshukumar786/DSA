@@ -9,8 +9,9 @@ class Solution {
         
         Arrays.sort(digits);
         if (sum % 3 == 0) {
-            
+
             if (digits[n - 1] == 0) return "0";
+            
             StringBuilder str = new StringBuilder();
             for (int i = n - 1; i >= 0; i--) {
                 str.append(digits[i]);
