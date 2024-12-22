@@ -17,6 +17,7 @@ class Solution {
                 str.append(digits[i]);
             }
             return str.toString();
+            
         } else if (sum % 3 == 1) {
             boolean idealFound = false;
             for (int i = 0; i < n; i++) {
