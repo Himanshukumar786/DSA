@@ -40,6 +40,7 @@ class Solution {
                         }
                     }
                 }
+                
                 if (idx[1] != -1) {
                     digits[idx[0]] = -1;
                     digits[idx[1]] = -1;
@@ -68,7 +69,7 @@ class Solution {
                         }
                     }
                 }
-                
+
                 if (idx[1] != -1) {
                     digits[idx[0]] = -1;
                     digits[idx[1]] = -1;
