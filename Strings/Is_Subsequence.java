@@ -13,6 +13,7 @@ public class Is_Subsequence {
                 if(s.charAt(i) == t.charAt(j)) {
                     i++;
                 }
+                
                 j++;
             }
             return i == m;
