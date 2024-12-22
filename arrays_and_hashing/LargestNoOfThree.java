@@ -68,6 +68,7 @@ class Solution {
                         }
                     }
                 }
+                
                 if (idx[1] != -1) {
                     digits[idx[0]] = -1;
                     digits[idx[1]] = -1;
@@ -76,7 +77,7 @@ class Solution {
         }
         
         StringBuilder ans = new StringBuilder();
-        
+
         for (int i = n - 1; i >= 0; i--) {
             if (digits[i] != -1) ans.append(digits[i]);
         }
