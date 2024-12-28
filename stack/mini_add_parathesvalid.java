@@ -5,6 +5,7 @@ import java.util.Stack;
 public class mini_add_parathesvalid {
     
     // we can optimize this, that means without using space(stack)
+    
     class Solution {
         public int minAddToMakeValid(String s) {
             
