@@ -4,8 +4,9 @@ import java.util.Stack;
 
 public class queue_using_stack {
     class MyQueue {
-    Stack<Integer> st1;
-    Stack<Integer> st2;
+
+        Stack<Integer> st1;
+        Stack<Integer> st2;
 
     public MyQueue() {
         st1 = new Stack<>();
