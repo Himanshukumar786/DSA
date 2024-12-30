@@ -18,9 +18,11 @@ public class queue_using_stack {
     }
     
     public int pop() {
+
         while(st1.size() > 1){
             st2.push(st1.pop());
         }
+
         int x = st1.pop();
         while(!st2.isEmpty()){
             st1.push(st2.pop());
