@@ -31,9 +31,11 @@ public class queue_using_stack {
     }
     
     public int peek() {
+
         while(st1.size() > 1){
             st2.push(st1.pop());
         }
+        
         int x = st1.peek();
         while(!st2.isEmpty()){
             st1.push(st2.pop());
