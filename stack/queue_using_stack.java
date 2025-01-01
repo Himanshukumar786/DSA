@@ -44,6 +44,7 @@ public class queue_using_stack {
     }
     
     public boolean empty() {
+        
         if(st1.isEmpty()){
             return true;
         }else{
