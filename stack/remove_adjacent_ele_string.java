@@ -18,6 +18,7 @@ public class remove_adjacent_ele_string {
                 st.push(s.charAt(i));
             }
         }
+        
         char[] arr = new char[st.size()];
         for(int i = arr.length-1; i >= 0; i--){
             arr[i] = st.pop();
