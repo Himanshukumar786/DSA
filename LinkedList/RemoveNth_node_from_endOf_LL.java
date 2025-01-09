@@ -6,6 +6,7 @@ public class RemoveNth_node_from_endOf_LL {
         
         ListNode fast = head ;
         int i = 0; 
+        
         while(i < n && fast != null){
             i++;
             fast = fast.next;
