@@ -16,6 +16,7 @@ public class Insertion_sort {
                 temp = temp.next;
                 continue;
             }
+            
             sortedList.next = temp.next;
             ListNode prev = null;
             ListNode t1 = head;
@@ -27,6 +28,7 @@ public class Insertion_sort {
                 prev = t1;
                 t1 = t1.next;
             }
+
             if(prev == null){
                 temp.next = prev.next;
                 prev.next = temp;
