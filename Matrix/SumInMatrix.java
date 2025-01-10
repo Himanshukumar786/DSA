@@ -14,6 +14,7 @@ public class SumInMatrix {
         }
         for (int j = 0; j < n; j++) {
             int temp = 0;
+            
             for (int i = 0; i < m; i++){
                 temp = Math.max(temp, nums[i][j]);
             }
