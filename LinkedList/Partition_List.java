@@ -15,8 +15,6 @@ public class Partition_List {
             curr = curr.next;
             temp.next = null;
             
-            
-            
             if(temp.val < x){
                 t1.next=temp;
                 t1=t1.next;
