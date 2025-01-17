@@ -10,6 +10,7 @@ public class rotate_list {
             ListNode last = head;
 
             // length = 1 ; is also possible
+            
             int length = 0; 
             while(last.next != null){
                 length++;
