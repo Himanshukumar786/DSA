@@ -3,6 +3,7 @@ package stack;
 import java.util.Stack;
 
 public class minimium_no_swap {
+    
     //Minimum Number of Swaps to Make the String Balanced -> 1963
     class Solution {
     public int minSwaps(String s) {
