@@ -24,7 +24,6 @@ public class Partition_List {
                         
             }
         }
-        
         t1.next=d2.next;
         d2.next=null;
 
@@ -32,7 +31,5 @@ public class Partition_List {
         
         d1.next=null;
         return result;
-        
-        
     }
 }
