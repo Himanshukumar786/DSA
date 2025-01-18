@@ -24,6 +24,7 @@ public class spiral_Matrix {
             //                down  to  top
 
             while(top <= down && left <= right){
+                
                 // left to right
                 if(direction == 0){
                     for(int i = left; i <= right; i++){
