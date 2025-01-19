@@ -2,8 +2,8 @@ package arrays_and_hashing;
 
 import java.util.Arrays;
 
-    public class containsDuplicate_I {
-        class Solution {
+public class containsDuplicate_I {
+    class Solution {
         public boolean containsDuplicate(int[] nums) {
             
             // sort array will take o(n) compleity
