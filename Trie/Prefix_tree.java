@@ -40,6 +40,7 @@ public class Prefix_tree {  // trie -> is like n-ary tree
                 if(curr.children[ch - 'a'] == null) return false; 
                 curr = curr.children[ch - 'a'];  
             }
+            
             return curr.isEnd;  
         }
         
@@ -52,6 +53,7 @@ public class Prefix_tree {  // trie -> is like n-ary tree
                 if(curr.children[ch - 'a'] == null) return false; 
                 curr = curr.children[ch - 'a']; 
             }
+
             return true;  
         }
     }
