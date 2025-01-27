@@ -34,7 +34,9 @@ class Solution {
                 idx[1] = -1;
 
                 for (int i = 0; i < n; i++) {
+
                     if (digits[i] % 3 == 2) {
+                        
                         if (idx[0] == -1) idx[0] = i;
                         else {
                             idx[1] = i;
