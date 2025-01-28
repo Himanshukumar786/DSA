@@ -51,6 +51,7 @@ class Solution {
                 } else return "";
             }
         } else {
+            
             boolean idealFound = false;
             for (int i = 0; i < n; i++) {
                 if (digits[i] % 3 == 2) {
