@@ -11,6 +11,7 @@ public class spiral_Matrix {
             if(matrix.length == 0){
                 return ans;
             }
+            
             int r = matrix.length;
             int c = matrix[0].length;
             int top = 0, down = r - 1;
