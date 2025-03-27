@@ -1,7 +1,9 @@
 class MyCalendarTwo {
+    
     List<int[]> doubleOverlap;
     List<int[]> overallBooking;
     List<int[]> tripleOverlap;
+
     public MyCalendarTwo() {
         doubleOverlap = new ArrayList<>();
         overallBooking = new ArrayList<>();
