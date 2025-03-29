@@ -27,6 +27,7 @@ class MyCalendarTwo {
                 doubleOverlap.add(findOverlappedRedion(booking[0], booking[1], startTime, endTime));
             }
         }
+        
         overallBooking.add(new int[]{startTime, endTime});
         return true;
         
