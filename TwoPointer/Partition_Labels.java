@@ -7,6 +7,7 @@ public class Partition_Labels {
     class Solution {
         public List<Integer> partitionLabels(String s) {
             int n = s.length();
+            
             List<Integer> ans = new ArrayList<>();
             int[] map = new int[26];
 
