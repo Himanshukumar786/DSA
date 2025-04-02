@@ -14,6 +14,7 @@ public class Partition_Labels {
             for(int i = 0; i < n; i++){
                 // int index = s.charAt(i) - 'a';
                 // map[index] = i;
+                
                 map[s.charAt(i) - 'a'] = i;
             }
 
