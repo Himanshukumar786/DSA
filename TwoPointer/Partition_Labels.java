@@ -12,6 +12,7 @@ public class Partition_Labels {
             int[] map = new int[26];
 
             for(int i = 0; i < n; i++){
+                
                 // int index = s.charAt(i) - 'a';
                 // map[index] = i;
                 
