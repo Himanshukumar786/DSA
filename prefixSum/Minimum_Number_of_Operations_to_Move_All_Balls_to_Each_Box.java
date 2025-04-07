@@ -11,6 +11,7 @@ public class Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box {
             int n = boxes.length();
 
             HashSet<Integer> set = new HashSet<>();
+            
             for(int i = 0; i < n; i++){
                 if(boxes.charAt(i) == '1'){
                     set.add(i); // index
