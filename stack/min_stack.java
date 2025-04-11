@@ -16,6 +16,7 @@ public class min_stack {
         if (minStack.empty() || val <= minStack.peek()) {
             minStack.push(val);
         }
+
         stack.push(val);
     }
     
@@ -25,6 +26,7 @@ public class min_stack {
         if (topStack == topMinStack) {
             minStack.pop();
         }
+        
         stack.pop();
     }
     
