@@ -23,6 +23,7 @@ public class min_stack {
     public void pop() {
         int topStack = stack.peek();
         int topMinStack = minStack.peek();
+        
         if (topStack == topMinStack) {
             minStack.pop();
         }
