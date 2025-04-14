@@ -1,4 +1,4 @@
-package Math;
+// Removed package declaration to match the expected package structure
 
 public class Harshad_Number {
     class Solution {
