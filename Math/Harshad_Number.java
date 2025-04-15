@@ -10,6 +10,7 @@ public class Harshad_Number {
                 sum += x % 10;
                 x /= 10;
             }
+            
             return number % sum == 0 ? sum : -1;
         }
     }
