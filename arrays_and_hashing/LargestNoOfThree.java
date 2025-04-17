@@ -1,3 +1,5 @@
+package arrays_and_hashing;
+
 import java.util.Arrays;
 
 class Solution {
