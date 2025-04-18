@@ -1,7 +1,7 @@
 package arrays_and_hashing;
 
 public class plusOne {
-    public int[] plusOne(int[] digits) {
+    public static int[] plusOne(int[] digits) {
        
         int n = digits.length;
         
@@ -9,12 +9,17 @@ public class plusOne {
             
             if(digits[i] < 9){
                 digits[i]++;
-                return digits;
+                    return digits;
+                }
             }
             digits[i] = 0;
         }
         
         int[] newnumber = new int[n+1];
+
+        public int[] getNewnumber() {
+            return newnumber;
+        }
         newnumber[0] = 1;
         return newnumber;
     }
