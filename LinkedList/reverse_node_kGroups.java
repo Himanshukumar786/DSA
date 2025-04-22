@@ -1,6 +1,24 @@
 package LinkedList;
 
 public class reverse_node_kGroups {
+
+    // Definition for singly-linked list.
+    public static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {}
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
     class Solution {
     
         public int length(ListNode head){
@@ -41,5 +59,10 @@ public class reverse_node_kGroups {
             prevHead.next = currHead;
             return ans;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "reverse_node_kGroups []";
     }
 }
