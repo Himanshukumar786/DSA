@@ -1,9 +1,25 @@
 package LinkedList;
 
-import javax.swing.tree.TreeNode;
+// Define TreeNode and ListNode classes as they are not part of javax.swing.tree
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int val) {
+        this.val = val;
+    }
+}
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int val) {
+        this.val = val;
+    }
+}
 
 public class LL_in_BT {
-    class Solution {
+    public class Solution {
     
         public boolean dfs(ListNode head, TreeNode node){
             
