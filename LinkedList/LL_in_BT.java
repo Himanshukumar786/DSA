@@ -1,6 +1,7 @@
 package LinkedList;
 
 // Define TreeNode and ListNode classes as they are not part of javax.swing.tree
+
 class TreeNode {
     int val;
     TreeNode left;
