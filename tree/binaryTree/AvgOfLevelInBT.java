@@ -33,6 +33,7 @@ public class AvgOfLevelInBT {
                 if(temp.right != null){
                     q.add(temp.right);
                 }
+                
                 total += temp.val;
                 System.out.print(total);
             }
