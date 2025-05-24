@@ -14,8 +14,6 @@ public class Multiples {
         } else {
             System.out.println("No Multiples");
         }
-
-        scanner.close();
     }
 }
 
