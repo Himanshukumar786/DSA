@@ -39,6 +39,7 @@ public class palindrome {
                 nhead = nhead.next;
                 slow = slow.next;
             }
+            
             return true;
         }
     }
