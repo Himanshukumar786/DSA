@@ -34,6 +34,7 @@ public class palindrome {
             if (fast != null) {
                 slow = slow.next;
             }
+            
             while (slow != null && nhead != null) {
                 if (slow.val != nhead.val) return false;
                 nhead = nhead.next;
